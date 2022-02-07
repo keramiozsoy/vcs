@@ -37,6 +37,7 @@
 | git branch -r   | show only remote branches |
 | git branch -a   | show all branches |
 | git add -A 	  | mark all file changes as ready to commit |
+| git clone -df   | remove untracked local files|
 | git mv [old_file new_file] | replace file,directory
 | git rm  [files]	| remove files from  the working directory and from the index|
 | git rm  --cached [files] | stop tracking but keep files in working dir.
