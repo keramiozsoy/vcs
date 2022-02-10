@@ -13,6 +13,7 @@
 | git status				 | show the working tree status|
 | git log 					 | show commit logs 		   |
 | git log --merge            | 								|
+| git log master..[branch_name] --online pipe tail -1 |  find commitid of created branch   |
 | git blame 				 | show what revision and author last modified each line of a file |
 | git show 					 | show various types of objects |
 | git rev-parse	[object_name]| return commit id given object_name |
@@ -49,3 +50,4 @@
 | git cherry-pick | take single commit from elsewhere |
 | git fsck | check tree |
 | git gc |   compress metadata for performance|
+
