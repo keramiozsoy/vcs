@@ -14,6 +14,7 @@
 | git log 					 | show commit logs 		   |
 | git log --merge            | 								|
 | git log master..[branch_name] --oneline pipe tail -1 |  find commitid of created branch   |
+| git log --first-parent     | branch where come from |
 | git blame 				 | show what revision and author last modified each line of a file |
 | git show 					 | show various types of objects |
 | git rev-parse	[object_name]| return commit id given object_name |
