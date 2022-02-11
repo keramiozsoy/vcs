@@ -5,8 +5,8 @@
 - HEAD   -> current branch
 - HEAD^  -> parent of HEAD
 
-| Command  	    			 | Info          			  |
-| -------------------------- | -------------------------- |
+| Command  	    			 | Info          			  | Example
+| -------------------------- | -------------------------- | -------------------------- |
 | git help [command]		 | learn git command 		  |
 | git init 					 | create an empty git repo   |
 | git clone [project_url]	 | copy file from remote url  |
@@ -42,14 +42,14 @@
 | git clone -df   | remove untracked local files|
 | git mv [old_file new_file] | replace file,directory
 | git rm  [files]	| remove files from  the working directory and from the index|
-| git rm  --cached [files] | stop tracking but keep files in working dir.
-| git commit -a    | create commit and put all changes into in.   |
-| git commit --dry-run | dont create commit, only show. |
-| git push         | send all commit to remote repo |
-| git archive | create release tarball |
-| git bisect  | binary search for defects |
-| git cherry-pick | take single commit from elsewhere |
-| git fsck | check tree |
-| git gc |   compress metadata for performance|
+| git rm  --cached [files] | stop tracking but keep files in working dir. | |
+| git commit -a    | create commit and put all changes into in.   | |
+| git commit --dry-run | dont create commit, only show. | |
+| git push         | send all commit to remote repo | |
+| git archive | create release tarball | |
+| git bisect  | binary search for defects | |
+| git cherry-pick | take single commit from elsewhere | |
+| git fsck | check tree | |
+| git gc |   compress metadata for performance| |
 | git tag | tagging branch | git tag -a v0.0.1 -m "first tag" , git tag , git tag push origin v0.0.1 |
 
