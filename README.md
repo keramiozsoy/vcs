@@ -52,4 +52,5 @@
 | git fsck | check tree |
 | git gc |   compress metadata for performance| 
 | git tag | tagging branch | git tag -a v0.0.1 -m "first tag" , git tag , git tag push origin v0.0.1 |
+| gitk|
 
