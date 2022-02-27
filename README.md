@@ -39,6 +39,7 @@
 | git branch      | show your local branches |
 | git branch -r   | show only remote branches |
 | git branch -a   | show all branches |
+| git branch -M [branch_name] | change master branch name | git branch -M main| 
 | git add -A 	  | mark all file changes as ready to commit |
 | git clone -df   | remove untracked local files|
 | git mv [old_file new_file] | replace file,directory
@@ -54,4 +55,6 @@
 | git gc |   compress metadata for performance| 
 | git tag | tagging branch | git tag -a v0.0.1 -m "first tag" , git tag , git tag push origin v0.0.1 |
 | gitk|
+| git remote -v | get remote repo of your project |
+| git remote add | change remote repo url|
 
