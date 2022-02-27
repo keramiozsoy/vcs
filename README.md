@@ -31,7 +31,7 @@
 | git request-pull  | create pull-requests   |
 | git fetch |  copy changes tree of remote repo ( not included files) |
 | git fetch --all | copy changes tree of remote repo ( not included files) |
-| git ferch --prune |  Before fetching, remove any remote-tracking references that no longer exist on the remote.|
+| git fetch --prune |  Before fetching, remove any remote-tracking references that no longer exist on the remote.|
 | git stash       | save files to temporary LIFO structure |
 | git stash --pop | delete files to temporary   LIFO structure|
 | git merge       | join two branch |
