@@ -39,7 +39,7 @@
 | git branch      | show your local branches |
 | git branch -r   | show only remote branches |
 | git branch -a   | show all branches |
-| git branch -M [branch_name] | change master branch name | git branch -M main| 
+| git branch -M [branch_name] | change your main branch name | git branch -M main| 
 | git add -A 	  | mark all file changes as ready to commit |
 | git clone -df   | remove untracked local files|
 | git mv [old_file new_file] | replace file,directory
