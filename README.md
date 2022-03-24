@@ -39,7 +39,7 @@
 | git branch      | show your local branches |
 | git branch -r   | show only remote branches |
 | git branch -a   | show all branches |
-| git branch -M [branch_name] | change your main branch name | git branch -M main| 
+| git branch -M [branch_name] | change main branch of your project | git branch -M main| 
 | git add -A 	  | mark all file changes as ready to commit |
 | git clone -df   | remove untracked local files|
 | git mv [old_file new_file] | replace file,directory
@@ -57,4 +57,19 @@
 | gitk|
 | git remote -v | get remote repo of your project |
 | git remote add | change remote repo url|
+
+-
+	how to undo pushed file?
+
+	git reset --soft COMMIT_ID
+	git restore --staged FILE_NAME
+	git restore FILE_NAME
+
+	git add -A
+	git commit -m "MESSAGE"
+	git push -f 
+- 
+
+
+
 
