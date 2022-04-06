@@ -48,9 +48,10 @@
 | git commit -a    | create commit and put all changes into in. | 
 | git commit --dry-run | dont create commit, only show. | 
 | git push         | send all commit to remote repo | 
+| git push --set-upstream [remote] [branch] | you choose where you will send your local branch |
 | git archive | create release tarball | 
 | git bisect  | binary search for defects | 
-| git cherry-pick | take single commit from elsewhere|
+| git cherry-pick [commit_id] | take single commit from elsewhere|
 | git fsck | check tree |
 | git gc |   compress metadata for performance| 
 | git tag -l | list all tags |
