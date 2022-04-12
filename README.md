@@ -55,8 +55,8 @@
 | git fsck | check tree |
 | git gc |   compress metadata for performance| 
 | git tag -l | list all tags |
-| git tag | tagging branch | git tag -a v0.0.1 -m "first tag" , git tag , git tag push origin 
-v0.0.1 |
+| git tag| list all tags |
+| git tag | tagging branch | git tag -a v0.0.1 -m "first tag"  &&  git push --tags |
 | git tag -d [tag_name]| delete a local tag | 
 | git push --delete origin [tag_name] | delete pushed tag on remote | 
 | gitk|
