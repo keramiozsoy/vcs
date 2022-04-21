@@ -27,11 +27,12 @@
 | git checkout | switch branches or restore working tree files |
 | git checkout -b [branch_name] | current branch will copy with given name |
 | git revert   | revert existing commits | 
-commit 8f937c683929b08379097828c8a04350b9b8e183
-Merge: 8989ee0 7c6b236
-
-git revert commit_id -m 1 -> 8989ee0
+- 
+commit 8f937c683929b08379097828c8a04350b9b8e183 
+Merge: 8989ee0 7c6b236 
+git revert commit_id -m 1 -> 8989ee0 
 git revert commit_id -m 2 -> 7c6b236
+-
 |
 | git pull | sync remote or local repository |
 | git request-pull  | create pull-requests   |
