@@ -26,14 +26,7 @@
 | git reset --hard [commit_id] | given commit will be last commit and old files will not be keep of your local repo. 
 | git checkout | switch branches or restore working tree files |
 | git checkout -b [branch_name] | current branch will copy with given name |
-| git revert   | revert existing commits | 
-- 
-commit 8f937c683929b08379097828c8a04350b9b8e183 
-Merge: 8989ee0 7c6b236 
-git revert commit_id -m 1 -> 8989ee0 
-git revert commit_id -m 2 -> 7c6b236
--
-|
+| git revert   | revert existing commits |
 | git pull | sync remote or local repository |
 | git request-pull  | create pull-requests   |
 | git fetch |  copy changes tree of remote repo ( not included files) |
@@ -83,7 +76,12 @@ git revert commit_id -m 2 -> 7c6b236
 - 
 
 
-
+- 
+	commit 8f937c683929b08379097828c8a04350b9b8e183 
+	Merge: 8989ee0 7c6b236 
+	git revert commit_id -m 1 -> 8989ee0 
+	git revert commit_id -m 2 -> 7c6b236
+-
 
 
 
