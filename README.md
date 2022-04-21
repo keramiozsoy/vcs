@@ -76,7 +76,9 @@
 - 
 
 
-- 
+-   	
+	How to use revert ?
+
 	commit 8f937c683929b08379097828c8a04350b9b8e183 
 	Merge: 8989ee0 7c6b236 
 	git revert commit_id -m 1 -> 8989ee0 
