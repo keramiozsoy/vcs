@@ -86,4 +86,10 @@
 -
 
 
+-
+	How to use soft reset ?
+	
+	git reset --soft commit_id
+	git restore --staged . 
+-
 
